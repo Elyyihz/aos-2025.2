@@ -41,11 +41,10 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg mb-8"
       >
-        🎲 Random & Inspiração ✨
+        🎲 Número Aleatório & Inspiração ✨
       </motion.h1>
 
       <div className="grid md:grid-cols-2 gap-6 w-full max-w-3xl">
-        {/* Card Random */}
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="bg-white/10 backdrop-blur-lg p-6 rounded-2xl shadow-lg text-center border border-white/20"
@@ -63,7 +62,6 @@ export default function Home() {
           </button>
         </motion.div>
 
-        {/* Card Inspiração */}
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="bg-white/10 backdrop-blur-lg p-6 rounded-2xl shadow-lg text-center border border-white/20"
