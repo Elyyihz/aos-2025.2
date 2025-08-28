@@ -5,7 +5,7 @@ import express from "express";
 const app = express();
 
 var corsOptions = {
-  origin: ["http://exemplo.com"],
+  origin: ["http://example.com"],
   optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
